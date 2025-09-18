@@ -6,50 +6,50 @@ body {
   place-items: center;
   height: 100vh;
   margin: 0;
-
-}
-.baixo{
-    width:400px;
-    height:300px;
-    bottom:0;
-    left:620px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.direita{
-  right:0;
-    top: 310px;
-    width: 300px;
-    height: 300px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
- 
-}
-.esquerda{
-
-    top:150px;
-    left: 0;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
-}
-.cima{
-    left:620px;
-    top :0.5cm;
-    width: 10cm;
-    height: 250px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 600px) {
+    .baixo{
+        width:400px;
+        height:300px;
+        bottom:0;
+        left:620px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .direita{
+      right:0;
+        top: 310px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+     
+    }
+    .esquerda{
+    
+        top:150px;
+        left: 0;
+        width: 400px;
+        height: 400px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cima{
+        left:620px;
+        top :0.5cm;
+        width: 10cm;
+        height: 250px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .girar{
@@ -241,3 +241,4 @@ body#pagina15 {
     opacity: 1;   /* totalmente visível */
   }
 }
+
