@@ -1,0 +1,243 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f7f7f7; 
+    display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+.baixo{
+    width:400px;
+    height:300px;
+    bottom:0;
+    left:620px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direita{
+  right:0;
+    top: 310px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.esquerda{
+
+    top:150px;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.cima{
+    left:620px;
+    top :0.5cm;
+    width: 10cm;
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.girar{
+  transform: rotate(90deg);
+}
+
+#textos{
+  display: flex;
+    margin-top:7cm;
+    margin-bottom:3px;
+    height: 1cm;
+    border: black 2px solid;
+}
+
+#textinho{
+  margin-bottom:15cm;
+  margin-top: 3px;
+  border: black 2px solid;
+  width: 18cm;
+  height: 4cm;
+}
+h1 {
+    color: #ffffff;
+    text-align: bottom;
+    top: 300px;
+}
+
+p {
+    font-size: 18px;
+}
+body#home {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_6.jpg");
+  background-repeat: no-repeat; 
+  background-size:auto;       
+  background-color: black;
+
+  
+}
+a{
+  color: white;
+}
+body#pagina1 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_13.jpeg");
+  background-repeat: no-repeat; 
+  background-size: auto;       
+  background-color: black;
+
+  
+}
+
+body#pagina2 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_11.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+body#pagina3 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_18.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina4 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_23.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+body#pagina5 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_28.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina6 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_32.jpeg");
+  background-repeat: no-repeat; 
+  background-size: auto;       
+  background-color: black;
+
+}
+
+body#pagina7 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_38.jpeg");
+  background-repeat: no-repeat; 
+  background-size: auto;       
+  background-color: black;
+
+}
+
+body#pagina8 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_40.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina9 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_48.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina10 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_53.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina11 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_58.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina12 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_63.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina13 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_63.jpeg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina14 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_71.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+body#pagina15 {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
+                    url("../img/foto_71.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;       
+  background-color: black;
+
+}
+
+
+
+.fade-in {
+  opacity: 0;                /* começa invisível */
+  animation: fadeIn 10s ease forwards; /* animação dura 2s */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;   /* invisível */
+  }
+  to {
+    opacity: 1;   /* totalmente visível */
+  }
+}
