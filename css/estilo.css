@@ -82,7 +82,7 @@ p {
 }
 body#home {
   background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
-                    url("img/foto_6.jpg");
+                    url("../img/foto_6.jpg");
   background-repeat: no-repeat; 
   background-size:auto;       
   background-color: black;
@@ -147,7 +147,7 @@ body#pagina6 {
 
 body#pagina7 {
   background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
-                    url("../img/foto_38.jpeg");
+                    url("../img/foto_35.jpeg");
   background-repeat: no-repeat; 
   background-size: auto;       
   background-color: black;
