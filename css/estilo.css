@@ -82,7 +82,7 @@ p {
 }
 body#home {
   background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),
-                    url("../img/foto_6.jpg");
+                    url("img/foto_6.jpg");
   background-repeat: no-repeat; 
   background-size:auto;       
   background-color: black;
@@ -241,4 +241,5 @@ body#pagina15 {
     opacity: 1;   /* totalmente visível */
   }
 }
+
 
